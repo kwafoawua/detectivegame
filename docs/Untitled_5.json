@@ -1,0 +1,59 @@
+{
+  "map": {
+    "width": 1020,
+    "height": 720,
+    "tileX": 51,
+    "tileY": 36,
+    "name": "Untitled_5"
+  },
+  "sprites": [
+    {
+      "id": "copy0bed",
+      "url": "img\\house/bed.png",
+      "width": 100,
+      "height": 60,
+      "posX": 26,
+      "posY": 19,
+      "type": null,
+      "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+      "rotationCont": 0
+    },
+    {
+      "id": "copy1cabinet",
+      "url": "img\\house/cabinet.png",
+      "width": 20,
+      "height": 20,
+      "posX": 2,
+      "posY": 9,
+      "type": null,
+      "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+      "rotationCont": 0
+    },
+    {
+      "id": "copy2cabinet",
+      "url": "img\\house/cabinet.png",
+      "width": 20,
+      "height": 20,
+      "posX": 2,
+      "posY": 3,
+      "type": null,
+      "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+      "rotationCont": 0
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+nav > ul > li {
+    display: inline-block;
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    color: #21241E;
+}
+
+img {
+    transform-origin: top left;
+    transition: transform 1s linear;
+}
+
+input {
+    height: 30px;
+    border-radius: 5px;
+    font-size: 10pt;
+    border: 1px solid cornflowerblue;
+    text-align: center;
+}
+
+select {
+    height: 35px;
+    border-radius: 5px;
+    font-size: 10pt;
+    border: 1px solid cornflowerblue;
+    text-align: center;
+    width: 150px;
+    color: gray;
+}
+
+input[type=file] {
+    width: 1px;
+    visibility: hidden;
+}
+
+textarea {
+    width: 700px;
+    resize: none;
+    overflow-y: scroll;
+    border-radius: 5px;
+}
+
+.button {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    border-radius: 3px;
+    border: none;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 0;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+.iconbtn {
+    background-color: lightgray;
+    vertical-align: middle;
+}
+
+.iconbtn: hover {
+    background-color: #fefefe;
+}
+
+.graycol {
+    background-color: #F0F0F0;
+}
+
+.cuadricula {
+    float: left;
+    width: 20px;
+    height: 20px;
+    border: 1px dashed lightgray;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-bottom: none;
+    border-right: none;
+}
+
+.dropDiv {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1021px;
+    height: 640px;
+    z-index: 1;
+    background-color: aliceblue;
+}
+
+.rightTitle {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 3px;
+    border: none;
+    color: #ffffff;
+    font-size: 14pt;
+    text-decoration: none;
+    height: 30px;
+    text-align: center;
+}
+
+.rightDiv {
+    width: 320px;
+    float: left;
+    top: 160px;
+}
+
+.isSelected {
+    border: 2px solid red;
+    cursor: move;
+    z-index: 2;
+    box-sizing: content-box;
+}
+
+.fix {
+    cursor: move;
+    z-index: 2;
+}
+
+.item {
+    border: 1px solid darkgray;
+    height: 15px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#gridTable {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    pointer-events: none;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    border-bottom: 1px dashed lightgray;
+    border-right: 1px dashed lightgray;
+}
+
+#gridDiv {
+    position: absolute;
+    top: 180px;
+    left: 320px;
+    width: 1021px;
+    height: 640px;
+}
+
+#contextMenu {
+    display: none;
+}
+
+#houseImages {
+    overflow: auto;
+    height: 350px;
+}
+
+#dialogDiv {
+    top: 840px;
+    left: 320px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: absolute;
+    width: 1020px;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+#rContainer {
+    float: left;
+    width: 225px;
+    height: 190px;
+    background-color: lightgray;
+    margin: 9px 5px 10px 5px;
+}
+
+#lContainer {
+    float: left;
+    width: 150px;
+    height: 190px;
+    background-color: lightgray;
+    margin: 30px 5px 10px 5px;
+    align-items: center;
+}
+
+#popClue {
+    visibility: hidden;
+    width: 400px;
+    font-size: 12px;
+    height: 250px;
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    background-color: crimson;
+    z-index: 1000;
+}
+
+#close {
+    float: right;
+    margin-bottom: 0;
+}
+
+
+/* Let's get this party started */
+
+::-webkit-input-placeholder {
+    font-size: 10pt;
+    text-align: center;
+}
+
+::-moz-placeholder {
+    font-size: 10pt;
+    text-align: center;
+}
+
+:-ms-input-placeholder {
+    font-size: 10pt;
+    text-align: center;
+}
+
+input:-moz-placeholder {
+    font-size: 10pt;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(52, 152, 219, 0.8);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(52, 152, 219, 0.4);
+}

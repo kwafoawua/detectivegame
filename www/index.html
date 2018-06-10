@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Draggable</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:700,400' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <header>
+        <h1>Level Editor<small> An editor to create the tile map for the detective game</small></h1>
+        <!--NAV SECTION  -->
+        <nav class="graycol">
+            <ul>
+                <li><strong>Map Name: </strong>
+                    <input type="text" id="mapName" placeholder="Untitled"></input>
+                </li>
+                <li>
+                    <h3>Options</h3></li>
+                <li>
+                    <select id="loadMaps">
+                        <option value="" disabled selected>Load Map</option>
+                    </select>
+                </li>
+                <li>
+                    <button type="button" class="button" id="newlayerbtn">RESET</button>
+                </li>
+                <li>
+                    <button type="button" class="button" id='savebtn'>SAVE</button>
+                </li>
+                <li>
+                    <button type="button" id='rotatebtn' class="button iconbtn"><img src="img/icons/rotate.png"></button>
+                </li>
+                <li>
+                    -Press Del key to delete an image.
+                </li>
+                <!-- <li>
+                    <select id="spriteType" title="Sprites are set as wall type. Select if you want to change to character">
+                        <option value="" selected disabled>Select Sprite Type</option>
+                        <option value="wall">Wall Type</option>
+                        <option value="main">Main Character</option>
+                        <option value="detective">Detective</option>
+                        <option value="inspector">Inspector</option>
+                        <option value="clue">Clue</option>
+                    </select>
+                </li> 
+                <li>
+                    <button type="button" id="charSection" class="button">Character Edition</button>
+                </li> -->
+            </ul>
+        </nav>
+    </header>
+    <!-- ASSETS SECTION -->
+    <div class="rightDiv" id="rightDiv">
+        <div id="droppedImgs"></div>
+        <div class='rightTitle'>
+            <p>House Assets</p>
+        </div>
+        <div id="houseImages"></div>
+        <div class='rightTitle'>
+            <p>Character Assets</p>
+        </div>
+        <div id='charImages'></div>
+        <div class='rightTitle'>
+            <p>Clue Assets</p>
+        </div>
+        <div id='clueImages'></div>
+    </div>
+    <!-- EDITOR SECTION -->
+    <div id="gridDiv">
+        <div class="dropDiv" id="dropDiv"></div>
+        <table id="gridTable">
+            <tbody id="gridTbody"></tbody>
+        </table>
+    </div>
+    <!-- DIALOG SECTION -->
+    <div id="dialogDiv">
+        <p>Character:
+            <label id="charName"></label>
+        </p>
+
+        <p>Introduction</p>
+        <div id="introTab">
+            <div id="divDialog1">Dialog #1:
+                <textarea maxlength="200" id="dialog1" data-pos='0'></textarea>
+            </div>
+        </div>
+        <div id="introBtn">
+            <button type="button" id="addIntro" class="button">ADD</button>
+            <button type="button" id="delIntro" class="button">DEL</button>
+            <button type="button" id="saveIntro" class="button">SAVE DIALOG</button>
+        </div>
+    </div>
+
+
+    <script src="js/model.js"></script>
+
+</body>
+
+</html>

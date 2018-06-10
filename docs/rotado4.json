@@ -1,0 +1,45 @@
+{
+  "map": {
+    "width": 1020,
+    "height": 720,
+    "tileX": 51,
+    "tileY": 36,
+    "name": "rotado4"
+  },
+  "sprites": [
+    {
+      "id": "copy0bed",
+      "url": "img\\house/bed.png",
+      "width": 100,
+      "height": 60,
+      "posX": 25,
+      "posY": 12,
+      "spriteType": "wall",
+      "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+      "rotationCont": 0,
+      "isRotated": false
+    },
+    {
+      "id": "copy1bed",
+      "url": "img\\house/bed.png",
+      "width": 60,
+      "height": 100,
+      "posX": 22,
+      "posY": 7,
+      "spriteType": "wall",
+      "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+      "rotationCont": 3,
+      "isRotated": true
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Interprete</title>
+</head>
+
+<body>
+    <h3>Select a Map:</h3>
+    <ul style="margin-left: 20px">
+        <li>
+            <select id="loadMaps">
+                <option value="" disabled selected>Load Map</option>
+            </select>
+        </li>
+    </ul>
+    <div id='popClue'>
+        <button id='close' type="button">X</button>
+        <div id='lContainer'>
+            <img src="img/clueimg.png" id="clueimg" style="margin-left: 15px; margin-top: 15px">
+        </div>
+        <div id="rContainer">
+            <div id="cluText" style="margin: 5px 5px 5px 5px">Parece que hay una huella en esta pista para descubrirla resuelve el siguiente problema. Los siguientes items estan desordenados. Ordenalos para poder descubrir la pista.</div>
+            <ul class="sortable">
+                <li class="item">Mejorar Brillo</li>
+                <li class="item">Modificar Contraste</li>
+                <li class="item">Difuminar</li>
+            </ul>
+        </div>
+    </div>
+    <main id="game" style="top: 300px; left: 300px; position: absolute"></main>
+    <script src="js/build/phaser.js"></script>
+    <script src="js/interprete.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery.sortable.js"></script>
+    <script>
+        $('.sortable').sortable();
+    </script>
+</body>
+
+</html>

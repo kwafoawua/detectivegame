@@ -1,0 +1,485 @@
+{
+    "map": {
+        "width": 1020,
+        "height": 640,
+        "tileX": 51,
+        "tileY": 32,
+        "name": "newStructure"
+    },
+    "sprites": [
+        {
+            "id": "copy0wall",
+            "url": "img\\house/wall.png",
+            "width": 180,
+            "height": 20,
+            "posX": 0,
+            "posY": 0,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false,
+            "dialog": []
+    },
+        {
+            "id": "copy1wall",
+            "url": "img\\house/wall.png",
+            "width": 20,
+            "height": 180,
+            "posX": 0,
+            "posY": 1,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 1,
+            "isRotated": true,
+            "dialog": []
+    },
+        {
+            "id": "copy2wall",
+            "url": "img\\house/wall.png",
+            "width": 20,
+            "height": 180,
+            "posX": 0,
+            "posY": 10,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 1,
+            "isRotated": true,
+            "dialog": []
+    },
+        {
+            "id": "copy3wall",
+            "url": "img\\house/wall.png",
+            "width": 20,
+            "height": 180,
+            "posX": 9,
+            "posY": 4,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 1,
+            "isRotated": true,
+            "dialog": []
+    },
+        {
+            "id": "copy4wall",
+            "url": "img\\house/wall.png",
+            "width": 180,
+            "height": 20,
+            "posX": 1,
+            "posY": 13,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false,
+            "dialog": []
+    },
+        {
+            "id": "copy5wall",
+            "url": "img\\house/wall.png",
+            "width": 20,
+            "height": 180,
+            "posX": 26,
+            "posY": 1,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 1,
+            "isRotated": true,
+            "dialog": []
+    },
+        {
+            "id": "copy6wall",
+            "url": "img\\house/wall.png",
+            "width": 180,
+            "height": 20,
+            "posX": 9,
+            "posY": 0,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false,
+            "dialog": []
+    },
+        {
+            "id": "copy7wall",
+            "url": "img\\house/wall.png",
+            "width": 180,
+            "height": 20,
+            "posX": 18,
+            "posY": 0,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false,
+            "dialog": []
+    },
+        {
+            "id": "copy8wall",
+            "url": "img\\house/wall.png",
+            "width": 180,
+            "height": 20,
+            "posX": 17,
+            "posY": 15,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false,
+            "dialog": []
+    },
+        {
+            "id": "copy9wall",
+            "url": "img\\house/wall.png",
+            "width": 20,
+            "height": 180,
+            "posX": 16,
+            "posY": 7,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 1,
+            "isRotated": true,
+            "dialog": []
+    },
+        {
+            "id": "copy10wall",
+            "url": "img\\house/wall.png",
+            "width": 180,
+            "height": 20,
+            "posX": 1,
+            "posY": 18,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 2,
+            "isRotated": true,
+            "dialog": []
+    },
+        {
+            "id": "copy11wall",
+            "url": "img\\house/wall.png",
+            "width": 180,
+            "height": 20,
+            "posX": 10,
+            "posY": 20,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false,
+            "dialog": []
+    },
+        {
+            "id": "copy12wall",
+            "url": "img\\house/wall.png",
+            "width": 180,
+            "height": 20,
+            "posX": 10,
+            "posY": 27,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false,
+            "dialog": []
+    },
+        {
+            "id": "copy13wall",
+            "url": "img\\house/wall.png",
+            "width": 20,
+            "height": 180,
+            "posX": 26,
+            "posY": 19,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 1,
+            "isRotated": true,
+            "dialog": []
+    },
+        {
+            "id": "copy14wall",
+            "url": "img\\house/wall.png",
+            "width": 180,
+            "height": 20,
+            "posX": 1,
+            "posY": 3,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false,
+            "dialog": []
+    },
+        {
+            "id": "copy15wall",
+            "url": "img\\house/wall.png",
+            "width": 180,
+            "height": 20,
+            "posX": 17,
+            "posY": 4,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false,
+            "dialog": []
+    },
+        {
+            "id": "copy16wall",
+            "url": "img\\house/wall.png",
+            "width": 20,
+            "height": 180,
+            "posX": 26,
+            "posY": 10,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 1,
+            "isRotated": true,
+            "dialog": []
+    },
+        {
+            "id": "copy17wall",
+            "url": "img\\house/wall.png",
+            "width": 20,
+            "height": 180,
+            "posX": 9,
+            "posY": 19,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 1,
+            "isRotated": true,
+            "dialog": []
+    },
+        {
+            "id": "copy18wall",
+            "url": "img\\house/wall.png",
+            "width": 180,
+            "height": 20,
+            "posX": 10,
+            "posY": 23,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false,
+            "dialog": []
+    },
+        {
+            "id": "copy19wall",
+            "url": "img\\house/wall.png",
+            "width": 180,
+            "height": 20,
+            "posX": 17,
+            "posY": 28,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false,
+            "dialog": []
+    },
+        {
+            "id": "copy20table",
+            "url": "img\\house/table.png",
+            "width": 100,
+            "height": 40,
+            "posX": 20,
+            "posY": 10,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false,
+            "dialog": []
+    },
+        {
+            "id": "copy21bed",
+            "url": "img\\house/bed.png",
+            "width": 100,
+            "height": 60,
+            "posX": 1,
+            "posY": 7,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false,
+            "dialog": []
+    },
+        {
+            "id": "copy22cabinet",
+            "url": "img\\house/cabinet.png",
+            "width": 20,
+            "height": 20,
+            "posX": 1,
+            "posY": 6,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false,
+            "dialog": []
+    },
+        {
+            "id": "copy23cabinet",
+            "url": "img\\house/cabinet.png",
+            "width": 20,
+            "height": 20,
+            "posX": 1,
+            "posY": 10,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false,
+            "dialog": []
+    },
+        {
+            "id": "copy24mainchar",
+            "url": "img\\char/mainchar.png",
+            "width": 20,
+            "height": 40,
+            "posX": 1,
+            "posY": 15,
+            "spriteType": "mainchar",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false,
+            "dialog": [
+        "Hola soy Averyl",
+        "Me gusta comer heladito"
+      ]
+    },
+        {
+            "id": "copy25detective",
+            "url": "img\\char/detective.png",
+            "width": 25,
+            "height": 40,
+            "posX": 24,
+            "posY": 17,
+            "spriteType": "detective",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false,
+            "dialog": [
+        "Estas aqui para poder aprender a programar. ",
+        "Descubre los nuevos misterios keke"
+      ]
+    }
+  ]
+}

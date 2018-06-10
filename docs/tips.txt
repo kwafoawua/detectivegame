@@ -1,0 +1,73 @@
+Color 1: #94A186
+Color 2: #AEBD9D
+Coloe 3: #78B036
+Color 4: #21241E
+Color 5: #10120F
+#fefefe
+#efefef
+
+NO ELIMINAR MAS EL DRAGELEMENT
+
+data.style.transform = 'rotate(90deg) translate('+ parseInt(data.style.left.split('px')[0],10) +'px,'+ parseInt(data.style.top.split('px')[0],10)+'px)';
+var data = document.getElementById('copy0bed');
+data.style.transform = 'rotate(90deg) translateY('+ data.offsetHeight+'px)';
+
+
+
+
+fs.writeFile(filename, data[, options], callback)#
+filename String
+data String | Buffer
+options Object | String
+encoding String | Null default = 'utf8'
+mode Number default = 0o666
+flag String default = 'w'
+callback Function
+Asynchronously writes data to a file, replacing the file if it already exists. data can be a string or a buffer.
+
+The encoding option is ignored if data is a buffer. It defaults to 'utf8'.
+
+Example:
+
+fs.writeFile('message.txt', 'Hello Node.js', function (err) {
+  if (err) throw err;
+  console.log('It\'s saved!');
+});
+If options is a string, then it specifies the encoding. Example:
+
+fs.writeFile('message.txt', 'Hello Node.js', 'utf8', callback);
+
+----------------
+var http = require('http');
+var fs = require('fs');
+function onRequest(request, response) {
+    
+}
+http.createServer();
+
+
+translateY(-' + data.offsetHeight + 'px)
+
+(?:\d*)?\d+ ver si no tiene numeros
+var num = str.replace(/\D+/g, "");
+
+
+if (num !== null) {
+            num++;
+            tittle = 'Untitled' + num;
+        } else {
+            title = 'Untitled0';
+        } // TODO to take into account for a better validation:  if (!title || typeof title !== 'string' || title.trim().length === 0)
+
+    }
+    
+     translate(' + width + 'px, ' + height + 'px)
+     
+     
+     Por ahora voy a hacer que todos los sprites vengan con tipo definido wall y luego el char se lo pueda cambiar
+     
+
+editar el ultimo commit
+//Added files.clue on app.js
+//Edited loadImages function to include clues
+//Added new function updateClueImages

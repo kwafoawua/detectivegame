@@ -1,0 +1,538 @@
+{
+    "map": {
+        "width": 1020,
+        "height": 720,
+        "tileX": 51,
+        "tileY": 36,
+        "name": "Prueba1"
+    },
+    "sprites": [
+        {
+            "id": "copy0bed",
+            "url": "img\\house/bed.png",
+            "width": 100,
+            "height": 60,
+            "posX": 1,
+            "posY": 4,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false
+    },
+        {
+            "id": "copy1wall",
+            "url": "img\\house/wall.png",
+            "width": 20,
+            "height": 180,
+            "posX": 0,
+            "posY": 0,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 1,
+            "isRotated": true
+    },
+        {
+            "id": "copy2wall",
+            "url": "img\\house/wall.png",
+            "width": 20,
+            "height": 180,
+            "posX": 0,
+            "posY": 9,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 1,
+            "isRotated": true
+    },
+        {
+            "id": "copy3wall",
+            "url": "img\\house/wall.png",
+            "width": 20,
+            "height": 180,
+            "posX": 0,
+            "posY": 18,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 1,
+            "isRotated": true
+    },
+        {
+            "id": "copy5wall",
+            "url": "img\\house/wall.png",
+            "width": 180,
+            "height": 20,
+            "posX": 1,
+            "posY": 11,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false
+    },
+        {
+            "id": "copy6wall",
+            "url": "img\\house/wall.png",
+            "width": 180,
+            "height": 20,
+            "posX": 1,
+            "posY": 14,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false
+    },
+        {
+            "id": "copy7wall",
+            "url": "img\\house/wall.png",
+            "width": 20,
+            "height": 180,
+            "posX": 9,
+            "posY": 2,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 1,
+            "isRotated": true
+    },
+        {
+            "id": "copy8wall",
+            "url": "img\\house/wall.png",
+            "width": 20,
+            "height": 180,
+            "posX": 9,
+            "posY": 15,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 1,
+            "isRotated": true
+    },
+        {
+            "id": "copy9wall",
+            "url": "img\\house/wall.png",
+            "width": 180,
+            "height": 20,
+            "posX": 1,
+            "posY": 24,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false
+    },
+        {
+            "id": "copy10wall",
+            "url": "img\\house/wall.png",
+            "width": 180,
+            "height": 20,
+            "posX": 0,
+            "posY": 27,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false
+    },
+        {
+            "id": "copy11wall",
+            "url": "img\\house/wall.png",
+            "width": 180,
+            "height": 20,
+            "posX": 9,
+            "posY": 27,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false
+    },
+        {
+            "id": "copy12wall",
+            "url": "img\\house/wall.png",
+            "width": 180,
+            "height": 20,
+            "posX": 18,
+            "posY": 27,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false
+    },
+        {
+            "id": "copy13wall",
+            "url": "img\\house/wall.png",
+            "width": 20,
+            "height": 180,
+            "posX": 27,
+            "posY": 19,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 1,
+            "isRotated": true
+    },
+        {
+            "id": "copy14wall",
+            "url": "img\\house/wall.png",
+            "width": 20,
+            "height": 180,
+            "posX": 27,
+            "posY": 10,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 1,
+            "isRotated": true
+    },
+        {
+            "id": "copy15wall",
+            "url": "img\\house/wall.png",
+            "width": 20,
+            "height": 180,
+            "posX": 27,
+            "posY": 1,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 1,
+            "isRotated": true
+    },
+        {
+            "id": "copy16wall",
+            "url": "img\\house/wall.png",
+            "width": 180,
+            "height": 20,
+            "posX": 18,
+            "posY": 24,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false
+    },
+        {
+            "id": "copy17wall",
+            "url": "img\\house/wall.png",
+            "width": 20,
+            "height": 180,
+            "posX": 18,
+            "posY": 15,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 1,
+            "isRotated": true
+    },
+        {
+            "id": "copy18wall",
+            "url": "img\\house/wall.png",
+            "width": 180,
+            "height": 20,
+            "posX": 18,
+            "posY": 14,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false
+    },
+        {
+            "id": "copy19wall",
+            "url": "img\\house/wall.png",
+            "width": 180,
+            "height": 20,
+            "posX": 18,
+            "posY": 11,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false
+    },
+        {
+            "id": "copy20wall",
+            "url": "img\\house/wall.png",
+            "width": 20,
+            "height": 180,
+            "posX": 18,
+            "posY": 2,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 1,
+            "isRotated": true
+    },
+        {
+            "id": "copy21wall",
+            "url": "img\\house/wall.png",
+            "width": 180,
+            "height": 20,
+            "posX": 1,
+            "posY": 0,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false
+    },
+        {
+            "id": "copy22wall",
+            "url": "img\\house/wall.png",
+            "width": 180,
+            "height": 20,
+            "posX": 10,
+            "posY": 0,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false
+    },
+        {
+            "id": "copy23wall",
+            "url": "img\\house/wall.png",
+            "width": 180,
+            "height": 20,
+            "posX": 19,
+            "posY": 0,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false
+    },
+        {
+            "id": "copy25bed",
+            "url": "img\\house/bed.png",
+            "width": 100,
+            "height": 60,
+            "posX": 1,
+            "posY": 18,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false
+    },
+        {
+            "id": "copy26table",
+            "url": "img\\house/table.png",
+            "width": 40,
+            "height": 100,
+            "posX": 23,
+            "posY": 17,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 1,
+            "isRotated": true
+    },
+        {
+            "id": "copy27cabinet",
+            "url": "img\\house/cabinet.png",
+            "width": 20,
+            "height": 20,
+            "posX": 21,
+            "posY": 17,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false
+    },
+        {
+            "id": "copy28cabinet",
+            "url": "img\\house/cabinet.png",
+            "width": 20,
+            "height": 20,
+            "posX": 21,
+            "posY": 21,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false
+    },
+        {
+            "id": "copy29pink",
+            "url": "img\\house/pink.png",
+            "width": 100,
+            "height": 100,
+            "posX": 20,
+            "posY": 3,
+            "spriteType": "wall",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false
+    },
+        {
+            "id": "copy30cabinet",
+            "url": "img\\house/cabinet.png",
+            "width": 20,
+            "height": 20,
+            "posX": 1,
+            "posY": 12,
+            "spriteType": "mainchar",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false
+    },
+        {
+            "id": "copy32cabinet",
+            "url": "img\\house/cabinet.png",
+            "width": 20,
+            "height": 20,
+            "posX": 22,
+            "posY": 5,
+            "spriteType": "clue",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 2,
+            "isRotated": true
+    },
+        {
+            "id": "copy33cabinet",
+            "url": "img\\house/cabinet.png",
+            "width": 20,
+            "height": 20,
+            "posX": 14,
+            "posY": 21,
+            "spriteType": "clue",
+            "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+            "rotationCont": 0,
+            "isRotated": false
+    }
+  ]
+}

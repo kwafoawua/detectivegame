@@ -1,0 +1,96 @@
+{
+  "map": {
+    "width": 1020,
+    "height": 720,
+    "tileX": 51,
+    "tileY": 36,
+    "name": "rotado3"
+  },
+  "sprites": [
+    {
+      "id": "copy0bed",
+      "url": "img\\house/bed.png",
+      "width": 100,
+      "height": 60,
+      "posX": 29,
+      "posY": 8,
+      "spriteType": null,
+      "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+      "rotationCont": 0,
+      "isRotated": false
+    },
+    {
+      "id": "copy1bed",
+      "url": "img\\house/bed.png",
+      "width": 60,
+      "height": 100,
+      "posX": 21,
+      "posY": 8,
+      "spriteType": null,
+      "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+      "rotationCont": 1,
+      "isRotated": true
+    },
+    {
+      "id": "copy2bed",
+      "url": "img\\house/bed.png",
+      "width": 100,
+      "height": 60,
+      "posX": 26,
+      "posY": 3,
+      "spriteType": null,
+      "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+      "rotationCont": 2,
+      "isRotated": true
+    },
+    {
+      "id": "copy3bed",
+      "url": "img\\house/bed.png",
+      "width": 60,
+      "height": 100,
+      "posX": 26,
+      "posY": 11,
+      "spriteType": null,
+      "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+      "rotationCont": 1,
+      "isRotated": true
+    },
+    {
+      "id": "copy4red",
+      "url": "img\\house/red.png",
+      "width": 100,
+      "height": 100,
+      "posX": 4,
+      "posY": 15,
+      "spriteType": "wall",
+      "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+      "rotationCont": 0,
+      "isRotated": false
+    }
+  ]
+}

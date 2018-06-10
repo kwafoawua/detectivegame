@@ -1,0 +1,75 @@
+{
+  "map": {
+    "width": 1020,
+    "height": 720,
+    "tileX": 51,
+    "tileY": 36,
+    "name": "rotado"
+  },
+  "sprites": [
+    {
+      "id": "copy0bed",
+      "url": "img\\house/bed.png",
+      "width": 60,
+      "height": 100,
+      "posX": 9,
+      "posY": 20,
+      "type": null,
+      "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+      "rotationCont": 1
+    },
+    {
+      "id": "copy1bed",
+      "url": "img\\house/bed.png",
+      "width": 100,
+      "height": 60,
+      "posX": 12,
+      "posY": 17,
+      "type": null,
+      "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+      "rotationCont": 0
+    },
+    {
+      "id": "copy2bed",
+      "url": "img\\house/bed.png",
+      "width": 100,
+      "height": 60,
+      "posX": 4,
+      "posY": 17,
+      "type": null,
+      "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+      "rotationCont": 2
+    },
+    {
+      "id": "copy3bed",
+      "url": "img\\house/bed.png",
+      "width": 60,
+      "height": 100,
+      "posX": 9,
+      "posY": 12,
+      "type": null,
+      "rotation": [
+        90,
+        180,
+        270,
+        360
+      ],
+      "rotationCont": 3
+    }
+  ]
+}
